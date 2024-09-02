@@ -2,6 +2,8 @@
 
 This repository contains the implementation of an object-tracking system using PyTorch, YOLOv5 for object detection, and DeepSort for tracking. The system is capable of detecting and tracking multiple objects in real-time from video streams.
 
+![Demo](img.gif)
+
 ## Table of Contents
 
 - [Overview](#overview)

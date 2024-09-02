@@ -1,0 +1,12 @@
+prefix=C:/Users/123sa/Desktop/deepSort_with_yolov5/deeps/Library
+exec_prefix=C:/Users/123sa/Desktop/deepSort_with_yolov5/deeps/Library
+libdir=C:/Users/123sa/Desktop/deepSort_with_yolov5/deeps/Library/lib
+includedir=C:/Users/123sa/Desktop/deepSort_with_yolov5/deeps/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}

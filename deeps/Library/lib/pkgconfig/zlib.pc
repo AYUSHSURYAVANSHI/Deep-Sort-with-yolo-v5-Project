@@ -1,0 +1,13 @@
+prefix=C:/Users/123sa/Desktop/deepSort_with_yolov5/deeps/Library
+exec_prefix=C:/Users/123sa/Desktop/deepSort_with_yolov5/deeps/Library
+libdir=C:/Users/123sa/Desktop/deepSort_with_yolov5/deeps/Library/lib
+sharedlibdir=C:/Users/123sa/Desktop/deepSort_with_yolov5/deeps/Library/lib
+includedir=C:/Users/123sa/Desktop/deepSort_with_yolov5/deeps/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
